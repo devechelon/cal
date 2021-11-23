@@ -6,8 +6,8 @@ package fr
 import (
 	"time"
 
-	"github.com/devechelon/cal/v2"
-	"github.com/devechelon/cal/v2/aa"
+	"github.com/rickar/cal/v2"
+	"github.com/rickar/cal/v2/aa"
 )
 
 var (

@@ -5,7 +5,7 @@ package ar
 import (
 	"time"
 
-	"github.com/devechelon/cal/v2"
+	"github.com/rickar/cal/v2"
 )
 
 var (
