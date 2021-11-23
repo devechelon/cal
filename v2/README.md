@@ -43,8 +43,8 @@ package main
 import (
 	"time"
 
-	"github.com/rickar/cal/v2"
-	"github.com/rickar/cal/v2/us"
+	"github.com/devechelon/cal/v2"
+	"github.com/devechelon/cal/v2/us"
 )
 
 func main() {
