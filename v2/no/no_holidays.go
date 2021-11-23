@@ -6,8 +6,8 @@ package no
 import (
 	"time"
 
-	"github.com/rickar/cal/v2"
-	"github.com/rickar/cal/v2/aa"
+	"github.com/devechelon/cal/v2"
+	"github.com/devechelon/cal/v2/aa"
 )
 
 var (
