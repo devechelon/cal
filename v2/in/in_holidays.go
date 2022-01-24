@@ -182,9 +182,15 @@ var (
 		GoodFriday,
 		Pongal,
 		RepublicDay,
-		TamilNewYear,
-		IndependenceDay,
-		GandhiJayanti,
 		AmbedkarJayanti,
+		TamilNewYear,
+		Ramazan,
+		Muharram,
+		IndependenceDay,
+		KrishnaJayenthi,
+		VinayakarChathurthi,
+		AyuthaPooja,
+		VijayaDasami,
+		Deepavali,
 	}
 )
