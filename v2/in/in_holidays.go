@@ -37,12 +37,37 @@ var (
 		Func:   cal.CalcDayOfMonth,
 	}
 
+	//AmbedkarJayanti represents AmbedkarJayanti 04-14
+	AmbedkarJayanti = &cal.Holiday{
+		Name:   "Ambedkar Jayanti",
+		Month:  time.April,
+		Day:    14,
+		Func:   cal.CalcDayOfMonth,
+	}
+
 	// TamilNewYear represents TamilNewYear 1-26
 	TamilNewYear = &cal.Holiday{
 		Name:   "Tamil New Year",
 		Month:  time.April,
 		Day:    15,
 		Offset: -1,
+		Func:   cal.CalcDayOfMonth,
+	}
+
+	// Ramazan
+	Ramazan = &cal.Holiday{
+		Name:   "Ramazan / Idu'l Fitr",
+		Month:  time.May,
+		Day:    3,
+		Offset: -1,
+		Func:   cal.CalcDayOfMonth,
+	}
+
+	// Muharram
+	Muharram = &cal.Holiday{
+		Name:   "Muharram",
+		Month:  time.August,
+		Day:    9,
 		Func:   cal.CalcDayOfMonth,
 	}
 
@@ -54,21 +79,46 @@ var (
 		Func:   cal.CalcDayOfMonth,
 	}
 
-	//GandhiJayanti represents GandhiJayanti 10-04
-	GandhiJayanti = &cal.Holiday{
-		Name:   "Gandhi Jayanti",
+	// Krishna Jayenthi
+	KrishnaJayenthi = &cal.Holiday{
+		Name:   "Krishna Jayenthi",
+		Month:  time.August,
+		Day:    19,
+		Func:   cal.CalcDayOfMonth,
+	}
+
+	// Vinayakar Chathurthi
+	VinayakarChathurthi = &cal.Holiday{
+		Name:   "Vinayakar Chathurthi",
+		Month:  time.August,
+		Day:    31,
+		Func:   cal.CalcDayOfMonth,
+	}
+
+	//Ayutha Pooja represents GandhiJayanti 10-04
+	AyuthaPooja = &cal.Holiday{
+		Name:   "Ayutha Pooja",
 		Month:  time.October,
 		Day:    04,
 		Func:   cal.CalcDayOfMonth,
 	}
 
-	//AmbedkarJayanti represents AmbedkarJayanti 04-14
-	AmbedkarJayanti = &cal.Holiday{
-		Name:   "Ambedkar Jayanti",
-		Month:  time.April,
-		Day:    14,
+	//Vijaya Dasami
+	VijayaDasami = &cal.Holiday{
+		Name:   "Vijaya Dasami",
+		Month:  time.October,
+		Day:    05,
 		Func:   cal.CalcDayOfMonth,
 	}
+
+	//Deepavali
+	Deepavali = &cal.Holiday{
+		Name:   "Deepavali",
+		Month:  time.October,
+		Day:    24,
+		Func:   cal.CalcDayOfMonth,
+	}
+
 
 	// RamaNavami represents RamaNavami 11-04
 	//RamaNavami = &cal.Holiday{
